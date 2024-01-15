@@ -4,6 +4,9 @@ $primary1: #7335b7;
 $primary2: #f8842b;
 $textCol: #1f1f1f;
 
+html {
+  overflow-y: scroll;
+}
 // import fonts
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
@@ -282,7 +285,7 @@ a:focus {
     width: 100%;
     position: unset;
   }
-
+  
   .detail-box {
     text-align: center;
     color: $white;
@@ -316,9 +319,10 @@ a:focus {
     }
   }
 
+
   .img-box {
     img {
-      width: 100%;
+      height: 20px;
     }
   }
 

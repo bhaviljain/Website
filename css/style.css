@@ -5,6 +5,9 @@ body {
   background-color: #ffffff;
   overflow-x: hidden;
 }
+html {
+  overflow-y: scroll;
+}
 .col-md-6{
   font-weight: 900;
   font-size: 25px;
@@ -92,7 +95,7 @@ a:focus {
 /*header section*/
 .hero_area {
   position: relative;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -336,7 +339,7 @@ a:focus {
   width: 185px;
 }
 
-.slider_section .detail-box .btn-box .btn1 {
+/* .slider_section .detail-box .btn-box .btn1 {
   display: inline-block;
   padding: 12px 15px;
   background-color: #5a2a8f;
@@ -345,16 +348,29 @@ a:focus {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid #5a2a8f;
+} */
+
+.slider_section .detail-box .btn-box .btn1 {
+  display: inline-block;
+  padding: 12px 15px;
+  background-color: white;
+  color: #5a2a8f;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid #5a2a8f;
 }
 
+
 .slider_section .detail-box .btn-box .btn1:hover {
-  color: #ffffff;
-  -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
+  color: black;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-10px);
+          
 }
 
 .slider_section .img-box img {
-  width: 100%;
+  width: 30%;
 }
 
 .slider_section .carousel-indicators {
